@@ -1,5 +1,5 @@
 1. pnpm install
-2. pnpm run prod
+2. pnpm run prod in `vike-app` folder
 
 Assets from **vike pack** (CSS, images) are not applied correctly when `onRenderClient` is an empty function (needed if we want to achieve fully zero JS without React chunk).
 
